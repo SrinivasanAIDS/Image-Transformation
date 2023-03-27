@@ -40,7 +40,7 @@ Reflected_image_row=cv2.warpPerspective(org_img,Reflection_matrix_row,(col,int(r
 Rotate the image 
 ```python
 Rotation_angle=np.radians(10) 
-Rotation_matrix=np.float32([[np.cos(Rotation_angle),-np.sin(Rotation_angle),0], [np.sin(Rotation_angle),np.cos(Rotation_angle),0], [0,0,1]])
+Rotation_matrix=np.float32([[np.cos(Rotation_angle),-np.sin(Rotation_angle),0],[np.sin(Rotation_angle),np.cos(Rotation_angle),0],[0,0,1]])
 Rotated_image=cv2.warpPerspective(org_img,Rotation_matrix,(col,(row)))
 ```
 ### Step 7:
